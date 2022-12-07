@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!--<suite name="All LoginTest Suite" parallel="methods" thread-count="5">-->
+<suite name="Onliner">
+    <listeners>
+        <listener class-name="listener.TestListener"/>
+    </listeners>
+    <test name="Base">
+        <classes>
+            <class name="ui.SearchTest"/>
+        </classes>
+    </test>
+</suite>
